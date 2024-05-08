@@ -5,16 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    Vector2 starPos;
 
-   
-    private void Start()
+    public Transform testStartTran;
+
+    public static object Instance { get; internal set; }
+
+    public void SetStartPosition(Vector2 startPosition)
     {
-        starPos = transform.position;
-        transform.position = GameObject.Find("GameStartPoint").transform.position;
-        
+        StartPosition = startPosition;
     }
-
+    Vector2 StartPosition;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Obstacle"))
@@ -33,13 +33,22 @@ public class GameController : MonoBehaviour
 
     private void Die()
     {
-        ResPawn();
+        // 如果出生点位置已设置，则重置角色位置为出生点位置
+        if (StartPosition != null)
+        {
+            ResPawn();
+        }
     }
-    
+
+
     private void ResPawn()
     {
-        transform.position = starPos;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //   transform.position = testStartTran.position;
+        this.transform.position = Vector3.zero;
+        Debug.Log("重新设置位置");
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Debug.Log("ReturnStartScene");
     }
+
+
 }

@@ -192,7 +192,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0031599551, y: 0.0024047801}
+  m_Offset: {x: 0.00087353215, y: -0.0005177185}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -203,7 +203,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2268568, y: 0.06135671}
+  m_Size: {x: 0.2395595, y: 0.08101708}
   m_EdgeRadius: 0
 --- !u!212 &112505460
 SpriteRenderer:
@@ -5830,7 +5830,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0031599551, y: 0.0024047801}
+  m_Offset: {x: -0.00019961968, y: -0.00078933313}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5841,7 +5841,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2268568, y: 0.06135671}
+  m_Size: {x: 0.23846272, y: 0.0805212}
   m_EdgeRadius: 0
 --- !u!212 &529109941
 SpriteRenderer:
@@ -29419,7 +29419,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0031599551, y: 0.0024047801}
+  m_Offset: {x: 0.00010579452, y: -0.00015047938}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -29430,7 +29430,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2268568, y: 0.06135671}
+  m_Size: {x: 0.23785233, y: 0.077966005}
   m_EdgeRadius: 0
 --- !u!212 &1725615026
 SpriteRenderer:
@@ -30068,7 +30068,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0031599551, y: 0.0024047801}
+  m_Offset: {x: 0.001327239, y: 0.00016894192}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -30079,7 +30079,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2268568, y: 0.06135671}
+  m_Size: {x: 0.2415172, y: 0.07988238}
   m_EdgeRadius: 0
 --- !u!212 &2087169164
 SpriteRenderer:

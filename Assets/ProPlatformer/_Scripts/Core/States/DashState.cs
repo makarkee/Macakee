@@ -93,7 +93,7 @@ namespace Myd.Platform
                         ctx.WallJump(-1);
                         return EActionState.Normal;
                     }
-                    else if (ctx.WallJumpCheck(-1))
+                    else if (ctx.sWallJumpCheck(-1))
                     {
                         ctx.WallJump(1);
                         return EActionState.Normal;

@@ -166,7 +166,7 @@ namespace Myd.Platform
                     if (GameInput.Jump.Checked())
                     {
                         //如果按住跳跃，则跳跃速度不受重力影响。
-                        ctx.Speed.y = Math.Max(ctx.Speed.y, ctx.VarJumpSpeed);
+                        //ctx.Speed.y = Math.Max(ctx.Speed.y, ctx.VarJumpSpeed);
                     }
                     else
                         ctx.VarJumpTimer = 0;
